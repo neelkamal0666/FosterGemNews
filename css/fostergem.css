@@ -1,0 +1,358 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+a {
+cursor:pointer;
+}
+html, body {
+  height:100%;
+}
+
+body {
+  padding-top: 50px; /* body padding for fixed top nav */
+}
+.navbar-inverse {
+  background-color: #0B79E5;
+  border-color: #0B79E5;
+}
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.tab-pane {
+  margin-top: 15px;
+}
+.active{
+cursor:pointer;
+}
+/* Page Sections */
+.section,
+.section-colored {
+  padding: 50px 0;
+}
+
+.section-colored {
+   /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+  margin-top: 10px;
+}
+
+.sidebar ul {
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #cccccc;
+}
+
+
+/* Half Page Height Carousel Customization */
+.header-image {
+	background-color:#0B79E5; /* Use a tiling background image or a full width image - if you're using full width you will need to change no-repeat center center cover  */
+	background-position: top;
+	height: auto;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.headline {
+	padding: 60px 0;
+}
+
+.headline > .container > h1 {
+ color:#FFFFFF;
+}
+
+.headline > .container > h2 {
+
+ color:#FFFFFF;
+}
+
+.item,
+.active,
+.carousel-inner {
+  height: 100%;
+}
+
+.fill {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+  margin-bottom: 45px;
+}
+
+.tooltip-social a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.facebook-link a:hover {
+  color: #3b5998;
+}
+
+.linkedin-link a:hover {
+  color: #007fb1;
+}
+
+.twitter-link a:hover {
+  color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+  color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+  font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+  font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+  font-size: 4em;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+  margin: 50px 0;
+}
+.portfolio_image {
+float:left; width:65px; margin-top:10px;
+}
+.portfolio_content {
+float:left; width:78%;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+.carousel {
+  height: 70%; /* increases the carousel height so it looks good on phones */
+}
+
+}
+.media-body {
+float:left;
+width:79%;
+}
+.navbar-default{
+    background-color: #3A77ED !important;
+}
+.media-heading{
+    color: #3A77ED !important;
+}
+.feed_source{
+    color: rgb(56,80,137) !important;
+}
+.panel-heading{
+    padding: 1px 15px;
+}
+.arrow-up {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	cursor:pointer;
+	border-bottom: 15px solid #e5e5e5;
+}
+.arrow-up-voted {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	cursor:pointer;
+	border-bottom: 15px solid #0b79e5;
+}
+.vote_count {
+width:30px;
+}
+.arrow-down {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	cursor:pointer;
+	border-top: 15px solid #e5e5e5;
+}
+.arrow-down-voted {
+	width: 0; 
+	height: 0; 
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	cursor:pointer;
+	border-top: 15px solid #0b79e5;
+}
+.icon-comment,
+.icon-share-sign,
+.icon-save,
+.icon-bookmark {
+margin-left:20px;
+}
+.news_feed_content {
+margin-top:15px;
+}
+
+.counter_box_active{
+padding:20px;
+padding-top:30px;
+float:right;
+height:100px; width:100px; background-color:#007ccc;
+border:1px solid #007ccc;
+font-size:20px; color:#FFFF00;
+-moz-border-radius:60px;
+	-webkit-border-radius:60px;
+}
+.counter_box_inactive{
+padding:20px;
+padding-top:30px;
+float:right;
+height:100px; width:100px; background-color:#F8F8F8;
+border:1px solid #F8F8F8;
+font-size:20px; color:#000000;
+-moz-border-radius:60px;
+	-webkit-border-radius:60px;
+}
+.counter_arrow {
+padding-top:40px;
+font-weight:bold;
+}
+#display_header_search_result {
+width:350px;
+}
+.search_result_title{
+width:350px;
+}
+.col-md-3 {
+    width:290px;
+  }
+  .tags {
+
+background-color:#b3cee1; width:auto; float:left; border-bottom:1px solid #b3cee1; border-right:1px solid #b3cee1;padding: 3px 4px 3px 4px;margin: 2px 2px 2px 0;
+
+}
+
+
+h1,
+.h1 {
+  font-size: 48px;
+}
+
+h2,
+.h2 {
+  font-size: 36px;
+}
+
+h3,
+.h3 {
+  font-size: 30px;
+}
+
+h4,
+.h4 {
+  font-size: 24px;
+}
+
+h5,
+.h5 {
+  font-size: 16px;
+}
+
+h6,
+.h6 {
+  font-size: 12px;
+}
+
+h1 small,
+.h1 small {
+  font-size: 24px;
+}
+
+h2 small,
+.h2 small {
+  font-size: 18px;
+}
+
+h3 small,
+.h3 small,
+h4 small,
+.h4 small {
+  font-size: 14px;
+}
+.navbar-brand {
+float: left;
+padding: 15px 15px;
+float: left;
+font-family: Conv_BreeSerif-Regular;
+font-size: 50px;
+font-weight: bold;
+color: #FFFFFF;
+margin: 0;
+line-height: 20px;
+}
+
+.login_box{
+width:300px;
+}
+#login_password{
+margin-top:10px;
+}
+#sign_in{
+margin-top:10px;
+}
+.news_feed{
+padding:10px; padding-left:0; padding-top:0px; margin-top:10px;
+}
+.modal-header {
+min-height: 16.42857143px;
+padding: 15px;
+border-bottom: 1px solid #e5e5e5;
+background-color: #f8f8f8;
+}
+.tags {
+background-color:#b3cee1; width:auto; border-bottom:1px solid #b3cee1; border-right:1px solid #b3cee1;padding: 3px 4px 3px 4px;margin: 2px 2px 2px 0;
+}
+
+a.boxclose{
+    float:right;
+    cursor:pointer;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 11px 3px;       
+}
+
+.boxclose:before {
+    content: "�";
+}
+
